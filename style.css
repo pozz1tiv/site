@@ -1,0 +1,34 @@
+.bg{
+    width: 50%;
+}
+.menu {
+	width: 100%; /* Ширина на весь экран*/
+	display: table; /* Определяет, что элемент является блочной таблицей*/
+}
+.menu ul {
+	display: table-row; /* Элемент отображается как строка таблицы*/
+}
+.menu li {
+	display: table-cell; /* Указывает, что элемент представляет собой ячейку таблицы*/
+	background: #BDB76B; /* Цвет фона меню*/
+}
+.menu ul li:hover, .menu a:hover { /* Цвет меню меняется при наведении курсора*/
+	background: #666;
+}
+.menu li a {
+	display: block;/* элемент становится блоком*/
+	padding: 8px 15px;/* внутренний отступ от элемента*/
+	color: #fff;/* Цвет текста*/
+	text-align: center;/* Выравнивание текста по центру.*/
+}
+footer {
+        padding: 10px 20px;
+        background: #BDB76B;
+        color: white;
+		position: fixed; /* Фиксированное положение */
+		left: 100; bottom: 0; /* Левый нижний угол */
+      }
+
+body{
+	background-color: #D4E6B3;
+}
